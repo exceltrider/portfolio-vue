@@ -41,7 +41,7 @@ const closeImage = () => {
   <p class="meta">Premiered Mar 7, 2026 • On YouTube</p>
 
   <p class="desc">
-    "Riau de Janeiro" is inspired by the vibe, history, and culture of Riau. 
+    "Riau de Janeiro" is my original song who inspired by the vibe, history, and culture of Riau. 
     Especially from where I'm from, Air Molek. The lyrics reflect the spirit 
     of the people, unity, and the beauty of Malay (Melayu) culture.
   </p>
