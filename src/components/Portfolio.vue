@@ -29,7 +29,7 @@ const closeImage = () => {
   Portfolio
 </h1>
 
-    <div class="video">
+    <div class="video-wrapper">
       <iframe
         src="https://www.youtube.com/embed/watch?v=OWQNCNZVpok"
         frameborder="0"
