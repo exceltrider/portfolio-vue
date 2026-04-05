@@ -49,9 +49,9 @@ const closeImage = () => {
 
     <div class="links-card">
 
-  <a href="https://bitexstudios.itch.io/" target="_blank" class="card">
-    <h3>My Game Website</h3>
-    <p>Buy on Itch.io</p>
+  <a href="https://bitexstudios.itch.io/night-shift-security" target="_blank" class="card">
+    <h3>Night Shift: Security</h3>
+    <p>My 2nd Game on Itch.io</p>
   </a>
 
   <a href="https://www.youtube.com/watch?v=MDXJhbcoJyk&t=3971s" target="_blank" class="card">

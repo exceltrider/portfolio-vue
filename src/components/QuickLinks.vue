@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+
     <div class="grid">
 
       <a href="#contact" class="card">
@@ -13,6 +14,14 @@
       </a>
 
     </div>
+
+    <div class="games-wrapper">
+      <router-link to="/games" class="card games">
+        <h2>Games</h2>
+        <p>Explore game database</p>
+      </router-link>
+    </div>
+
   </div>
 </template>
 
@@ -20,15 +29,27 @@
 .wrapper {
   padding: 40px 20px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
+  width: 100%;
   max-width: 600px;
-  margin: auto;
+}
+
+.games-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.games {
+  width: 220px;
 }
 
 .card {
