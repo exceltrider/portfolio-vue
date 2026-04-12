@@ -8,10 +8,16 @@ import NotFound from '../views/NotFound.vue'
 
 const routes = [
   { path: '/', component: Home },
+
   { path: '/games', component: GameList },
+
   { path: '/games/:id', component: GameDetail },
+
   { path: '/my-game', component: MyGame },
-  { path: '/:pathMatch(.*)*', component: NotFound }
+
+  { path: '/not-found', component: NotFound },
+
+  { path: '/:pathMatch(.*)*', redirect: '/not-found' }
 ]
 
 export default createRouter({
